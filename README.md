@@ -7,7 +7,7 @@ import pandas as pd
 # Load the dataset
 df = pd.read_csv('your_dataset.csv')  # Replace with your file path
 
-# Summary before cleaning
+# Summary  before cleaning
 print("Initial shape:", df.shape)
 print("Initial missing values:\n", df.isnull().sum())
 print("Initial duplicate rows:", df.duplicated().sum())
